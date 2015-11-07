@@ -11,9 +11,9 @@ Section | Guideline
 
 ### Variable Names
 
-Variable names are all_lowercase_with_underscores.  
-Prefix private class members with "\_".  
-May prefix global variables with "g_".
+* Variable names are all_lowercase_with_underscores.  
+* Prefix private class members with "\_".  
+* May prefix global variables with "g_".
 
 ### Constant Names
 
