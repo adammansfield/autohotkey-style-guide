@@ -4,8 +4,15 @@
 
 Section | Guideline
 --------|----------
+[Functions](#functions) | [Commands](#commands)
 [Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)
 [Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)
+
+## Functions
+
+### Commands
+
+Prefer to use a function equilavent. If using a command, the command name must be followed by a comma.
 
 ## Naming
 
