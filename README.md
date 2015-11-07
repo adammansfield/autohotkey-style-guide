@@ -1,8 +1,14 @@
-AutoHotkey Style Guide
-======================
+# AutoHotkey Style Guide
 
-Naming
-------
+## Table of Contents
+
+Section | Guideline
+--------|----------
+[Naming](#naming) | [Variable Names](variable-names)    [Constant Names](constant-names)
+  
+
+
+## Naming
 
 ### Variable Names
 
