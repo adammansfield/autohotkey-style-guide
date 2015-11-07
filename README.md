@@ -6,6 +6,7 @@ Section | Guideline
 --------|----------
 [Functions](#functions) | [Commands](#commands)
 [Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)
+[Comments](#comments) | [Comment Style](#comment-style)    [Function Comments](#function-comments)
 [Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)
 
 ## Functions
@@ -36,6 +37,27 @@ Read-only properties are named with a leading "k" followed by mixed case.
       {
       }
     }
+
+## Comments
+
+### Comment Style
+
+Use the ;-style syntax only. Use Doxygen comments.
+
+### Function Comments
+
+Every function declaration should have comments immediately preceding it that describe what the function does and how to use it. These comments should be descriptive ("Opens the file") rather than imperative ("Open the file"); the comment describes the function, it does not tell the function what to do. In general, these comments do not describe how the function performs its task. Instead, that should be left to comments in the function definition.
+
+    ; Brief description of the function.
+    ;
+    ; Detailed description.
+    ; May span multiple paragraphs.
+    ;
+    ; @param arg1 Description of arg1
+    ; @param arg2 Description of arg2. May span
+    ;        multiple lines.
+    ; @return Description of the return value.
+    Compare(arg1, arg2)
 
 ## Formatting
 
