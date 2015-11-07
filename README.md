@@ -11,7 +11,9 @@ Section | Guideline
 
 ### Variable Names
 
-Variable names are all_lowercase_with_underscores. Prefix private class members with "\_". May prefix global variables with "g_".
+Variable names are all_lowercase_with_underscores.  
+Prefix private class members with "\_".  
+May prefix global variables with "g_".
 
 ### Constant Names
 
@@ -42,8 +44,8 @@ Use only spaces, and indent 2 spaces at a time. Do not use tabs in your code.
 
 Use [Allman style braces](https://en.wikipedia.org/wiki/Indent_style#Allman_style), which is braces on its own lines.
 
-Influences
-----------
+### Influences
+
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [Neovim C Style Guide](https://neovim.io/develop/style-guide.xml)
 * [Python PEP 8](https://www.python.org/dev/peps/pep-0008/)
