@@ -11,11 +11,11 @@ Section | Guideline
 
 ### Variable Names
 
-Variable names are all_lowercase_with_underscores. May prefix global variables with "g_".
+Variable names are all_lowercase_with_underscores. Postfix private class members with "\_". May prefix global variables with "g_".
 
 ### Constant Names
 
-Read-only properties are named with a leading 'k' followed by mixed case.
+Read-only properties are named with a leading "k" followed by mixed case.
 
     kDaysInAWeek[]
     {
