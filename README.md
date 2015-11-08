@@ -7,7 +7,7 @@ Section | Guideline
 [Functions](#functions) | [Commands](#commands)
 [Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)
 [Comments](#comments) | [Comment Style](#comment-style)    [Function Comments](#function-comments)
-[Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)
+[Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)    [Function Calls](#function-calls)
 
 ## Functions
 
@@ -73,7 +73,14 @@ Use only spaces, and indent 2 spaces at a time. Do not use tabs in your code.
 
 Use [Allman style braces](https://en.wikipedia.org/wiki/Indent_style#Allman_style), which is braces on its own lines.
 
-### Influences
+### Function Calls
+
+On one line if it fits; otherwise, wrap arguments at the parenthesis. Align comma with the opening parenthesis because in order to continue to the next line the comma must come first.
+
+    retval := DoSomething(argument1, argument2, argument3
+                         ,argument4, argument5)
+
+## Influences
 
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [Neovim C Style Guide](https://neovim.io/develop/style-guide.xml)
