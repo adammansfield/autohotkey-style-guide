@@ -5,7 +5,7 @@
 Section | Guideline
 --------|----------
 [Functions](#functions) | [Commands](#commands)
-[Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)
+[Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)    [Function Names](#function-names)
 [Comments](#comments) | [Comment Style](#comment-style)    [Function Comments](#function-comments)
 [Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)    [Function Calls](#function-calls)
 
@@ -37,6 +37,11 @@ Read-only properties are named with a leading "k" followed by mixed case.
       {
       }
     }
+
+### Function Names
+
+* Function names start with a capital letter and have a capital letter for each new word: MyExcitingFunction.
+* If a function is private to that script, then consider prefixing an underscore.
 
 ## Comments
 
