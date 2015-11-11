@@ -6,7 +6,7 @@ Section | Guideline
 --------|----------
 [Functions](#functions) | [Commands](#commands)
 [Naming](#naming) | [Variable Names](#variable-names)    [Constant Names](#constant-names)    [Function Names](#function-names)
-[Comments](#comments) | [Comment Style](#comment-style)    [Function Comments](#function-comments)
+[Comments](#comments) | [Comment Style](#comment-style)    [File Comments](#file-comments)    [Function Comments](#function-comments)
 [Formatting](#formatting) | [Line Length](#line-length)    [Spaces vs Tabs](#spaces-vs-tabs)    [Brace Style](#brace-style)    [Function Calls](#function-calls)
 
 ## Functions
@@ -48,6 +48,15 @@ Read-only properties are named with a leading "k" followed by mixed case.
 ### Comment Style
 
 Use the ;-style syntax only. Use Doxygen comments.
+
+### File Comments
+
+Start each file with a description of its contents.
+
+    ;; A brief description of this file.
+    ;;
+    ;; A longer description of this file.
+    ;; You can be very generous here.
 
 ### Function Comments
 
