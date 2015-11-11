@@ -78,6 +78,16 @@ Use only spaces, and indent 2 spaces at a time. Do not use tabs in your code.
 
 Use [Allman style braces](https://en.wikipedia.org/wiki/Indent_style#Allman_style), which is braces on its own lines.
 
+Allman style will work in every situation while using something like K&R or the one true brace style will not work with some constructs.
+
+    AwesomeFunction()
+    {
+    }
+    
+    if (val == 5)
+    {
+    }
+
 ### Function Calls
 
 On one line if it fits; otherwise, wrap arguments at the parenthesis. Align comma with the opening parenthesis because in order to continue to the next line the comma must come first.
