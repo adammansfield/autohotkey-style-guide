@@ -20,7 +20,7 @@ Prefer to use a function equilavent. If using a command, the command name must b
 ### Variable Names
 
 * Variable names are all_lowercase_with_underscores.  
-* Prefix private class members with "\_".  
+* Postfix private class members with "\_".  
 * May prefix global variables with "g_".
 
 ### Constant Names
@@ -41,7 +41,8 @@ Read-only properties are named with a leading "k" followed by mixed case.
 ### Function Names
 
 * Function names start with a capital letter and have a capital letter for each new word: MyExcitingFunction.
-* If a function is private to that script, then consider prefixing an underscore.
+* May prefix function names with the filename then an underscore.
+* May postfix an underscore to private functions.
 
 ## Comments
 
